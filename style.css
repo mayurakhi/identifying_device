@@ -1,0 +1,30 @@
+@media only screen and (min-width: 767px){
+body {
+    background-color: cornflowerblue;
+    min-height: 100 vh;
+}
+.ref::before {
+    color:white;
+    content:"PHONE"
+}
+}
+@media only screen and (min-width: 1023px){
+    body {
+        background-color:firebrick;
+        min-height: 100 vh;
+    }
+    .ref::before {
+        color:white;
+        content:"TABLET"
+    }
+}
+    @media only screen and (min-width: 1919px){
+        body {
+            background-color:orange;
+            min-height: 100 vh;
+        }
+        .ref::before {
+            color:white;
+            content:"PC"
+        }
+    }
